@@ -1,0 +1,83 @@
+.header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  padding: 20px;
+  height: 250px;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin-right: 50px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 40px;
+}
+
+.guest-button,
+button {
+  background-color: white;
+  color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.guest-button:hover,
+button:hover {
+  background-color: #388e3c;
+  color: white;
+}
+
+.user-header {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-right: 50px;
+}
+
+.user-header span strong {
+  font-weight: bold; /* Make the username bold */
+}
+
+.email {
+  margin-top: 5px; /* Add a little space between username and email */
+}
+
+.logout-button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+  background-color: #d32f2f;
+}
